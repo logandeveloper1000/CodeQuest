@@ -18,7 +18,7 @@ To run this project locally:
 
 1. Download or clone the repository:
    ```
-   git clone https://github.com/your-username/CodeQuest.git
+   git clone https://github.com/logandeveloper1000/CodeQuest.git
    ```
 
 2. Open the project folder:
