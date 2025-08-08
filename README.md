@@ -1,4 +1,4 @@
-# JavaScript Quiz App
+# JavaScript Code Quest
 
 This is a simple quiz application built with HTML, CSS, and JavaScript. It allows users to answer multiple-choice questions, track their score, and restart the quiz.
 

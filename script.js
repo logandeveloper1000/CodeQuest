@@ -1,30 +1,66 @@
 const questions = [
   {
-    question: "Which array method adds an element to the end of an array?",
-    options: ["unshift()", "push()", "pop()", "shift()"],
-    answer: "push()"
+    question: "Which keyword is used to declare a constant variable in JavaScript?",
+    options: ["let", "var", "const", "define"],
+    answer: "const"
   },
   {
-    question: "How do you write a conditional statement in JavaScript?",
-    options: ["if i = 5 then", "if (i === 5)", "if i == 5 then", "if i === 5"],
-    answer: "if (i === 5)"
+    question: "What does `NaN` stand for in JavaScript?",
+    options: ["Not a Number", "No assigned Name", "Negative and Null", "None at Night"],
+    answer: "Not a Number"
   },
   {
-    question: "Which loop will execute at least once, even if the condition is false?",
-    options: ["for", "while", "do while", "if"],
-    answer: "do while"
+    question: "Which method is used to convert a JSON string into a JavaScript object?",
+    options: ["JSON.stringify()", "JSON.parse()", "parse.JSON()", "stringify.JSON()"],
+    answer: "JSON.parse()"
   },
   {
-    question: "How do you create an array in JavaScript?",
-    options: ["let arr = []", "arr = object", "let arr = ()", "let arr = {}"],
-    answer: "let arr = []"
+    question: "What is the output of `typeof null` in JavaScript?",
+    options: ["null", "undefined", "object", "string"],
+    answer: "object"
   },
   {
-    question: "Which of the following is NOT a JavaScript data type?",
-    options: ["string", "boolean", "float", "undefined"],
-    answer: "float"
-  }
+    question: "Which operator is used for strict equality comparison in JavaScript?",
+    options: ["==", "===", "=", "!="],
+    answer: "==="
+  },
+  {
+    question: "Which symbol is used for single-line comments in JavaScript?",
+    options: ["//", "/*", "#", "<!--"],
+    answer: "//"
+  },
+  {
+    question: "What will `Boolean('false')` return?",
+    options: ["true", "false", "undefined", "null"],
+    answer: "true"
+  },
+  {
+    question: "What is the correct way to write a function in JavaScript?",
+    options: [
+      "function myFunction() {}",
+      "def myFunction() {}",
+      "func myFunction() {}",
+      "create function myFunction() {}"
+    ],
+    answer: "function myFunction() {}"
+  },
+  {
+    question: "Which JavaScript method can be used to select an element by its ID?",
+    options: [
+      "document.querySelector('#id')",
+      "document.getElementById()",
+      "Both of the above",
+      "document.getElementByClass()"
+    ],
+    answer: "Both of the above"
+  },
+  {
+    question: "What will `console.log(2 + '2')` output?",
+    options: ["4", "'4'", "'22'", "NaN"],
+    answer: "'22'"
+  },
 ];
+
 
 let currentQuestionIndex = 0;
 let score = 0;
